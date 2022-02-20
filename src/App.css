@@ -37,11 +37,15 @@ body {
 }
 
 .headline {
+  align-content: center;
+  align-items: baseline;
   border: 1px solid rgb(218, 218, 218);
   border-radius: 10px;
+  display: flex;
   font-size: 32px;
   font-weight: 700;
-  margin: 20px 0;
+  justify-content: center;
+  margin: 20px auto;
   padding: 10px 40px;
 }
 
@@ -75,4 +79,12 @@ body {
   border-radius: 20%;
   box-shadow: 0 0 1em white;
   opacity: 0.8;
+}
+
+.missions-div {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 100%;
 }
