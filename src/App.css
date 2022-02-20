@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -9,19 +15,64 @@ body {
 
 .principal-header {
   display: flex;
-  font-size: 32px;
+  flex-flow: column wrap;
   justify-content: center;
 }
 
-.solar-div {
+.principal-header h1 {
+  align-content: center;
   display: flex;
+  font-size: 56px;
   justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.solar-div {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 100%;
 }
 
 .headline {
   border: 1px solid rgb(218, 218, 218);
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px 0;
   padding: 10px 40px;
-  width: fit-content;
+}
+
+.planet-container {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 10px;
+  padding: 0 15px 20px;
+}
+
+.planet-card p {
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px 0;
+  padding: 10px 20px;
+}
+
+.planet-card:hover {
+  border-radius: 20%;
+  box-shadow: 0 0 1em white;
+  opacity: 0.8;
 }
