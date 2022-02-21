@@ -10,9 +10,10 @@ class Missions extends Component {
         <Title headline="Missões" />
         <div className="missions-container">
           { missions.map((mission) => {
-            const { name, year, country, destination } = mission;
+            const { name, year, country, destination, image } = mission;
             return (<MissionCard
               key={ name }
+              image={ image }
               name={ name }
               year={ year }
               country={ country }
