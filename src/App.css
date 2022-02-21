@@ -88,3 +88,14 @@ body {
   justify-content: center;
   width: 100%;
 }
+
+.missions-container {
+  border: 1px solid blue;
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+}
+
+.mission {
+  border: 1px solid white;
+}
