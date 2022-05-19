@@ -79,7 +79,7 @@ const Missions = [
     year: '1983',
     country: URSS,
     destination: 'Vênus',
-    image: 'https://i.ytimg.com/vi/NH1CXSGgues/hqdefault.jpg',
+    image: 'https://cdn.mos.cms.futurecdn.net/9asSDsR6kPCRrqkUosmybA-1200-80.jpg',
   },
   {
     name: 'MESSENGER',

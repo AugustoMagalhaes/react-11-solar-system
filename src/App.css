@@ -81,10 +81,6 @@ body {
 
 .planet-card:hover {
   transform: scale(1.2);
-
-  /* border-radius: 20%;
-  box-shadow: 0 0 1em white;
-  opacity: 0.8; */
 }
 
 .missions-div {
